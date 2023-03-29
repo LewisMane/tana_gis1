@@ -24,7 +24,7 @@ st.write("""
 *click on a marker to view project details*
 """)
 
-HtmlFile = open("./maps/map2.html", 'r')
+HtmlFile = open("./maps/map_new.html", 'r')
 Tana_map = HtmlFile.read()
 components.html(Tana_map, height=700)
 
@@ -84,16 +84,16 @@ col3.markdown("""
 <span style='color:brown;'>
 Universal Health Coverage Project
 </span><br>
-<span style='color:blue;'>
+<span style='color:green;'>
 . Tech_Appr 
 </span> =
-<span style='color:brown;'>
+<span style='color:green;'>
 Technical Appraisal 
 </span><br>
-<span style='color:blue;'>
+<span style='color:green;'>
 . MTP_IV  
 </span>=
-<span style='color:brown;'>
+<span style='color:green;'>
 Medium Term Project
 </span>
 
